@@ -50,7 +50,7 @@ def predict():
 
             # indicate that the request was a success
             data["success"] = True
-          else:
+        else:
             return flask.make_response(flask.jsonify(data), 400)
 
     # return the data dictionary as a JSON response
