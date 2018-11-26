@@ -72,4 +72,4 @@ if __name__ == "__main__":
   print(hparams_debug_string())
   synthesizer.load(args.checkpoint)
   print('model loaded')
-  app.run()
+  app.run(host= '0.0.0.0')
